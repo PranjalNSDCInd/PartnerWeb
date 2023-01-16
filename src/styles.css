@@ -1,4 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
-* {
+body {
   background-image: url("../src/assets/file.png");
+}
+
+label{
+    font-weight: 600;
+}
+
+input{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.btn-primary{
+    font-weight: 600;
+    padding: 4% 6% 4% 6%;
+    color: white;
+    background-color: #2B3B92;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btn-secondary{
+    font-weight: 600;
+    padding: 4% 6% 4% 6%;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btn-success{
+    font-weight: 600;
+    padding: 4% 6% 4% 6%;
+    color: white;
+    background-color: #09A54B;
+    border-radius: 5px;
+    border: 0px;
 }
